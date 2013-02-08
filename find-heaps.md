@@ -1,4 +1,12 @@
-	SELECT SCHEMA_NAME(o.schema_id) AS [schema]
+/*
+
+SQL Script that finds the tables that are 'Heaps' in your database.
+
+reference: http://sqlserverpedia.com/wiki/Find_Tables_Without_Primary_Keys
+
+*/
+
+    SELECT SCHEMA_NAME(o.schema_id) AS [schema]
 		,object_name(i.object_id ) AS [table]
 		,p.rows
 		,user_seeks
