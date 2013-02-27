@@ -3,6 +3,7 @@
 SQL Script that finds the tables that are 'Heaps' in your database.
 
 reference: http://sqlserverpedia.com/wiki/Find_Tables_Without_Primary_Keys
+alternative version: http://sqlmonitormetrics.red-gate.com/number-of-tables-without-clustered-indexes-defined/
 
 */
 
