@@ -1,0 +1,1 @@
+EXEC master..sp_MSForeachdb 'USE [?];SELECT ''?'' '

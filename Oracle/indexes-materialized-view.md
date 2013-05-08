@@ -1,0 +1,5 @@
+	select * 
+	  from ALL_IND_COLUMNS 
+	 where TABLE_OWNER='YOUR_SCHEMA' 
+	   and TABLE_NAME='YOUR_TABLE_NAME' 
+	 order by INDEX_NAME, COLUMN_POSITION;
